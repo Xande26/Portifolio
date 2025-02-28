@@ -1,0 +1,134 @@
+/* Estilo para o body */
+body {
+    background-color: #808080;
+    overflow-x: hidden; /* Desativa a rolagem horizontal */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove o padding do body */
+    max-width: 100%; /* Garante que o body não ultrapasse a largura da tela */
+}
+
+/* Estilo para a navbar */
+.navbar {
+    background-color: #111111; /* Cor de fundo da navbar */
+    padding: 10px 20px; /* Espaçamento interno (padding) */
+    margin: 0; /* Remove a margem externa */
+    display: flex; /* Flexbox para alinhamento dos itens */
+    justify-content: space-between; /* Espaçamento uniforme entre os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+/* Estilo para a lista de itens da navbar */
+.navbar ul {
+    list-style: none; /* Remove os pontos da lista */
+    margin: 0; /* Remove a margem da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    display: flex; /* Exibe os itens na horizontal */
+}
+
+/* Estilo para os itens da navbar */
+.navbar li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links da navbar */
+.navbar a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo para o ícone Git (ajustar posição) */
+.git {
+    position: relative;
+     left: 1170px;/* Move o ícone para a extremidade direita da navbar */
+}
+
+/* Estilo para o parágrafo de informações */
+.infor p {
+    position: relative;
+    width: 100%;              /* Faz o parágrafo ocupar toda a largura disponível */
+    max-width: 600px;         /* Limita a largura máxima, ajustável conforme necessário */
+    margin: 20px auto;        /* Centraliza o parágrafo na página */
+    padding: 15px;            /* Adiciona espaçamento interno, ajustável conforme necessário */
+    border: 0 solid ;  /* Define uma borda ao redor do parágrafo */
+    border-radius: 8px;       /* Borda arredondada */
+    line-height: 1.6;         /* Ajusta o espaçamento entre as linhas */
+    font-size: 26px;          /* Tamanho de fonte ajustado */
+    box-sizing: border-box;   /* Inclui a borda e o padding no cálculo da largura */
+    word-wrap: break-word;    /* Garante que palavras longas não saiam da borda */
+    text-align: justify;      /* Alinha o texto ao longo de toda a linha */
+    top: 50px;
+    left: 360px;
+}
+.HML{ /* Icon do html*/
+    position: relative; 
+    top: 214px;
+    left: 120px;
+}
+.CS{ /* Icon do css*/
+    position: relative;
+    top: 162px;
+    left: 180px;
+}
+.JS{ /* Icon do java script*/
+    position: relative;
+    top: 110px;
+    left: 240px;
+}
+.JV{ /* Icon do java*/
+    position: relative;
+    top: 58px;
+    left: 300px;
+}
+.PY{ /* Icon do python*/
+    position: relative;
+    top: 8px;
+    left: 360px;
+}
+.lg{ /* Paragrafo sobre as linguagens*/
+    padding: 0;
+    margin: 0;
+}
+.lg p{ /* espeificações do paragrafo*/
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 15px;
+    top: 190px;
+    left: 120px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 100%;
+}
+.sbm /* link cliquavel sobre-mim*/{
+    position: relative;
+    left: 370px;/* Move o ícone para a extremidade direita da navbar */
+    top: 17px;
+}
+.pro{ /* link cliquavel dos projetos*/
+    position: relative;
+    left: 420px;/* Move o ícone para a extremidade direita da navbar */
+    top: 17px;
+}
+.sbm a, .pro a {  /* a classe do sobre nois e projetos*/
+    color: #808080 !important; /* Aplica a cor preta aos links dentro das classes .sbm e .pro */
+    font-weight: bold; /* Mantém o negrito */
+}
+/* Tema Claro */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Tema Escuro */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
